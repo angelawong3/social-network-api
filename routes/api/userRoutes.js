@@ -4,16 +4,15 @@ const {
   getUsers,
   getSingleUser,
   createUser,
-  // updateUser,
-  // deleteUser,
+  updateUser,
+  deleteUser,
 } = require("../../controllers/userController");
 
 // /api/users
 router.route("/").get(getUsers).post(createUser);
 
 // /api/users/:userId
-router.route("/:userId").get(getSingleUser);
-// .put(updateUser).delete(deleteUser);
+router.route("/:userId").get(getSingleUser).put(updateUser).delete(deleteUser);
 
 // /api/users/:userId/friends/:friendId
 // TODO: POST to add a new friend to a user's friend list
