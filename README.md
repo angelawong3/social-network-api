@@ -36,7 +36,7 @@ npm run start
 
 ![screenshot](./assets/img/CLI.png)
 <br />
-Download the walkthrough video [here]()
+Download the walkthrough video [here](https://drive.google.com/file/d/1OnYCVrfkxu8ghqIeW69HksEflL3Ydo_n/view?usp=sharing)
 
 ### Technologies Used
 
